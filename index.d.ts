@@ -15,4 +15,11 @@
 		     */
 		    static executeFunctionAsynchronously(successCallBack:any, failureCallBack:any, functionName:string, parameter:any[], autorefresh?:boolean, fullsubmit?:boolean): void;
 		
+			/**
+			 * getFieldValue
+			 * 
+			 * @param string fieldName 
+			 * @returns any value 
+			 */
+			static getFieldValue(fieldName:string):any;
 		}
