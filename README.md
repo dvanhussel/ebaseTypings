@@ -1,2 +1,2 @@
 # ebaseTypings
-Typescript defenitions for Ebase
+Typescript definitions for Ebase
