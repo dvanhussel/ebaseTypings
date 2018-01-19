@@ -22,4 +22,15 @@
 			 * @returns any value 
 			 */
 			static getFieldValue(fieldName:string):any;
+
+			/**
+			 * setFieldValue
+			 * 
+			 * @param string fieldName 
+			 * @param any value,
+			 * @param boolean autorefresh [Optional]
+			 * @param object failureCallback [Optional]
+			 */
+			static setFieldValue(fieldName:string, value:any,autorefresh?:boolean, failureCallBack?:object):boolean;
+
 		}
