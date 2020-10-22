@@ -21,7 +21,7 @@
 			/**
 		     *  registerEventHandler
 		     */
-		    static registerEventHandler(jQueryElement:string, eventName:string, eventHandler:any): any;
+		    static registerEventHandler(jQueryElement:any, eventName:string, eventHandler:any): any;
 
 			/**
 			 * getFieldValue
