@@ -9,12 +9,20 @@
 		     */
 		    
 		    static executeFunction(functionName: string, parameter?: any[], autorefresh?: boolean, fullsubmit?: boolean, failureCallBack?: any): any;
-		
+
+			
+			
 		    /**
 		     *  executeFunctionAsynchronously
 		     */
-		    static executeFunctionAsynchronously(successCallBack:any, failureCallBack:any, functionName:string, parameter:any[], autorefresh?:boolean, fullsubmit?:boolean): void;
+		    static executeFunctionAsynchronously(successCallBack:any, failureCallBack:any, functionName:string, parameter:any[], autorefresh?:boolean, fullsubmit?:boolean, componentPrefix?:string): void;
 		
+		
+			/**
+		     *  registerEventHandler
+		     */
+		    static registerEventHandler(jQueryElement:string, eventName:string, eventHandler:any): any;
+
 			/**
 			 * getFieldValue
 			 * 
